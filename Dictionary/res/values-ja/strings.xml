@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common -->
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="close">閉じる</string>
+    <string name="create">作成</string>
+    <string name="rename">名前変更</string>
+    <string name="delete">削除</string>
+    <string name="clear">クリア</string>
+    <string name="success">Success</string>
+    <string name="not_yet">Coming Soon!!</string>
+    <string name="not_found_voice_input">音声認識アプリが見つかりません。</string>
+    <string name="japanese">日本語</string>
+    <string name="english">英語</string>
+    <string name="please_select">選択して下さい</string>
+    <string name="please_input">入力して下さい</string>
+    <string name="is_it_ok">よろしいですか？</string>
+
+    <!-- app common -->
+    <string name="app_name">ごった煮辞書(日英)</string>
+    <string name="dict">辞書</string>
+    <string name="search_history">検索履歴</string>
+    <string name="voice_search">音声検索</string>
+    <string name="close_button">閉じるボタン</string>
+    <string name="back_button">戻るボタン</string>
+    <string name="etc">その他</string>
+    <string name="url">URL</string>
+    <string name="shorten_url">短縮URL</string>
+    <string name="page_title">ページタイトル</string>
+
+
+    <!-- Site -->
+    <string name="site_eijiro_m">英辞郎モバイル - スペースアルク</string>
+    <string name="site_eijiro">英辞郎 - スペースアルク</string>
+    <string name="site_naver_ejje_m">Naverモバイル 英和和英辞典</string>
+    <string name="site_dictionarycom">Dictionary.com (英英辞典)</string>
+    <string name="site_free_dict">TheFreeDictionary (英英辞典)</string>
+    <string name="site_urban">Urban Dictionary (スラング英英辞典)</string>
+    <string name="site_weblio">Weblio 辞書</string>
+    <string name="site_weblio_ejje">Weblio 英和・和英辞典</string>
+    <string name="site_weblio_thesaurus">Weblio 類語辞典</string>
+    <string name="site_yahoo">Yahoo!辞書</string>
+    <string name="site_goo">Goo辞書</string>
+    <string name="site_wiki_m_jp">Wikipedia (JP)</string>
+    <string name="site_wiki_m_en">Wikipedia (EN)</string>
+
+    <!-- Menu -->
+    <string name="menu_tags">タグ</string>
+    <string name="menu_select_copy">テキストコピー</string>
+    <string name="menu_search">検索</string>
+    <string name="menu_page_info">HP情報</string>
+    <string name="menu_share">共有</string>
+    <string name="menu_share_url_open">URLを開く</string>
+    <string name="menu_share_url_share">検索キーワード、クリップボード、URLをシェアする</string>
+    <string name="menu_share_evernote">Evernote作成</string>
+    <string name="menu_share_message">選択してください</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_exit">終了</string>
+
+    <!-- Setting -->
+    <string name="setting_last_selected_dict">前回の選択を保存</string>
+    <string name="setting_start_selected_dict">起動時辞書の選択</string>
+    <string name="setting_history_max_num">検索履歴保存数</string>
+    <string name="setting_history_max_num_dtitle">検索履歴保存数を入力して下さい(最大99)</string>
+    <string name="setting_history_clear">検索履歴をクリア</string>
+    <string name="setting_cbtn_exit">アプリを終了</string>
+    <string name="setting_cbtn_clear_search_history">検索履歴をクリア</string>
+    <string name="setting_cbtn_clear_brows_history">閲覧履歴をクリア</string>
+    <string name="setting_cbtn_clear_brows_cash">キャッシュをクリア</string>
+    <string name="setting_etc_feedback">このアプリを評価</string>
+    <string name="setting_etc_feedback_summary">ご意見ご感想を頂けると幸いです。</string>
+
+    <!-- Main -->
+    <string name="retrieval_word">検索キーワード</string>
+    <string name="search">検索</string>
+    <string name="closed">閉じました</string>
+    <string name="tag">タグ</string>
+    <string name="goback">戻ります</string>
+    <string name="no_history">検索履歴がありません</string>
+    <string name="clear_history">検索履歴をクリア</string>
+    <string name="cleared_history">検索履歴をクリアしました</string>
+    <string name="cleared_brows_history">内部ブラウザ閲覧履歴をクリアしました</string>
+    <string name="cleared_brows_cach">内部ブラウザキャッシュをクリアしました</string>
+
+    <!-- Tag -->
+    <string name="add_tags">タグを追加</string>
+    <string name="add_tags_msg">現在表示中のWebページにタグを追加します。</string>
+    <string name="edit_tags">タグを設定</string>
+    <string name="apply_tags">タグを利用</string>
+    <string name="hint_new_tag">新しいタグの名前</string>
+    <string name="not_found_tag">タグがありません</string>
+    <string name="share_all">全てを共有</string>
+
+    <!-- Voice Input -->
+    <string name="jump_market_voice_input_app">音声入力アプリがありません。Google Playを開きますか？</string>
+
+</resources>

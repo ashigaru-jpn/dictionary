@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/dict" >
+        <CheckBoxPreference
+			android:key="setting_last_selected_dict"
+			android:title="@string/setting_last_selected_dict" />
+        <ListPreference
+            android:dialogTitle="@string/setting_start_selected_dict"
+            android:entries="@array/dict_entries"
+            android:entryValues="@array/dict_entryvalues"
+            android:key="setting_start_selected_dict"
+            android:title="@string/setting_start_selected_dict" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/search_history" >
+        <EditTextPreference
+            android:title="@string/setting_history_max_num"
+            android:dialogTitle="@string/setting_history_max_num_dtitle"
+            android:inputType="number"
+            android:defaultValue="30"
+            android:maxLength="2"
+            android:key="setting_history_max_num" />
+        <Preference
+            android:key="setting_history_clear"
+            android:title="@string/setting_history_clear" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/close_button" >
+        <CheckBoxPreference
+            android:key="setting_cbtn_exit"
+            android:title="@string/setting_cbtn_exit" />
+        <CheckBoxPreference
+            android:key="setting_cbtn_clear_search_history"
+            android:title="@string/setting_cbtn_clear_search_history" />
+        <CheckBoxPreference
+            android:key="setting_cbtn_clear_brows_history"
+            android:title="@string/setting_cbtn_clear_brows_history"  />
+        <CheckBoxPreference
+            android:key="setting_cbtn_clear_brows_cash"
+            android:title="@string/setting_cbtn_clear_brows_cash" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/etc" >
+        <Preference
+            android:key="setting_etc_feedback"
+            android:title="@string/setting_etc_feedback"
+            android:summary="@string/setting_etc_feedback_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

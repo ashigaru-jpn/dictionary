@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/jp/mobs/gogo/android/dictionary/TagEditorActivity.java" />
+    </issue>
+    <issue id="SetJavaScriptEnabled">
+        <ignore path="src/jp/mobs/gogo/android/common/WebViewCreator.java" />
+    </issue>
+</lint>

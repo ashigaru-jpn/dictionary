@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="4dp" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/l_retrieval_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/retrieval_word"
+                android:inputType="text" >
+
+                <requestFocus android:layout_width="wrap_content" />
+            </EditText>
+            <ImageButton
+                android:id="@+id/l_btn_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/button_background"
+                android:clickable="true"
+                android:contentDescription="@string/clear"
+                android:src="@drawable/clear_btn_unselected30" />
+
+        </RelativeLayout>
+
+        <ImageButton
+          android:id="@+id/l_btn_history"
+            android:clickable="true"
+          android:background="@drawable/button_background"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/search_history"
+          android:src="@drawable/ic_menu_recent_history48" />
+        <ImageButton
+            android:id="@+id/l_btn_voice"
+            android:clickable="true"
+            android:background="@drawable/button_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/voice_search"
+            android:src="@drawable/ic_voice_search_api_holo_light43" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/l_dict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    <WebView
+        android:id="@+id/l_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        <LinearLayout
+            android:id="@+id/l_find_text_base"
+            android:background="@android:color/darker_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+            <EditText
+              android:id="@+id/l_find_word"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="2dp"
+              android:layout_weight="1"
+              android:hint="@string/search"
+              android:inputType="text" />
+            <ImageButton
+              android:id="@+id/l_find_exe"
+              android:clickable="true"
+              android:background="@drawable/button_background"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/search"
+              android:src="@drawable/ic_menu_search48" />
+            <ImageButton
+                android:id="@+id/l_find_close"
+                android:clickable="true"
+                android:background="@drawable/button_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/close"
+                android:src="@drawable/ic_menu_close48" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/l_btn_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp" >
+
+        <Button
+            android:id="@+id/l_close"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_close48"
+            android:minWidth="60dp"
+            android:text="@string/close" />
+        <!--
+        <Button
+            android:id="@+id/l_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_tag48"
+            android:minWidth="60dp"
+            android:text="@string/tag" />
+        -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

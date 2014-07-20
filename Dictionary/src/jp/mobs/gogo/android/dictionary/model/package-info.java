@@ -1,0 +1,1 @@
+package jp.mobs.gogo.android.dictionary.model;

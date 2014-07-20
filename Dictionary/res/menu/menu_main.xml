@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 
+    <item
+        android:id="@+id/menu_tags"
+        android:title="@string/menu_tags"
+        android:icon="@drawable/ic_menu_tag48"/>
+     -->
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        />
+    <item
+        android:id="@+id/menu_page_info"
+        android:title="@string/menu_page_info"
+        android:icon="@android:drawable/ic_menu_info_details"
+        />
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/menu_share">
+        <menu>
+            <item
+                android:id="@+id/menu_share_url_open"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/menu_share_url_open"/>
+            <item
+                android:id="@+id/menu_share_url_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/menu_share_url_share"/>
+            <!--
+                <item
+                    android:id="@+id/menu_share_evernote"
+                    android:icon="@drawable/ic_menu_share48"
+                    android:title="@string/menu_share_evernote"/>
+            -->
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/menu_exit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+    
+</menu>

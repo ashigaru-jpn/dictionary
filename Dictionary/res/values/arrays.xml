@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="dict_entries">
+        <item>@string/site_eijiro_m</item>
+        <item>@string/site_eijiro</item>
+        <item>@string/site_naver_ejje_m</item>
+        <item>@string/site_dictionarycom</item>
+        <item>@string/site_free_dict</item>
+        <item>@string/site_urban</item>
+        <item>@string/site_weblio</item>
+        <item>@string/site_weblio_ejje</item>
+        <item>@string/site_weblio_thesaurus</item>
+        <item>@string/site_yahoo</item>
+        <item>@string/site_goo</item>
+        <item>@string/site_wiki_m_jp</item>
+        <item>@string/site_wiki_m_en</item>
+    </string-array>
+    <string-array name="dict_entryvalues">
+        <item>@string/site_eijiro_m</item>
+        <item>@string/site_eijiro</item>
+        <item>@string/site_naver_ejje_m</item>
+        <item>@string/site_dictionarycom</item>
+        <item>@string/site_free_dict</item>
+        <item>@string/site_urban</item>
+        <item>@string/site_weblio</item>
+        <item>@string/site_weblio_ejje</item>
+        <item>@string/site_weblio_thesaurus</item>
+        <item>@string/site_yahoo</item>
+        <item>@string/site_goo</item>
+        <item>@string/site_wiki_m_jp</item>
+        <item>@string/site_wiki_m_en</item>
+
+    </string-array>
+
+</resources>
